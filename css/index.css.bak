@@ -1,0 +1,124 @@
+﻿html, body{
+	height:100%;
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+	background:url(http://bxdzt.img39.wal8.com/img39/406945_20140307185338/139418987712.jpg) no-repeat;
+}
+
+.anchorClass{
+	position:absolute;
+	width:100%;
+	min-width: 960px;
+	height:400px;/*width:800px;background-color:red;position:absolute;*/
+	visibility:hidden;
+}
+
+p { padding: 0; margin: 0;}
+
+#footer {
+	position: fixed;
+	display: block;
+	bottom: 10px;
+	z-index: 10000;
+	background-color: #1F1F1F;
+	width: 700px;
+	height: 63px;
+	right:5px;
+	border-top: solid 1px #ececec;
+}
+	#footer .wrap {
+		position: relative;
+	}
+	#footer #back_active {
+		position: absolute;
+		top: 0;
+		z-index: -1;
+		background-image: url(http://www.exosource.com/wp-content/themes/exosource/images/menu_active.png);
+		background-position: 0 0;
+		background-size: 105px auto;
+		background-repeat: no-repeat;
+		display: block;
+		color: #ffffff;
+		width: 105px;
+		height: 76px;
+	}
+	#footer div {
+		padding: 0;
+		margin: 0;
+	}
+	#footer img#exo_logo {
+		float: left;
+		padding-top: 20px;
+		cursor: pointer;
+	}
+	#footer nav {
+		position: absolute;
+		display: block;
+		top: 0;
+		width: 735px;
+		left: 20px;
+	}
+	#footer ul {
+		float: left;
+		padding: 0;
+		margin: 0;
+		height: 65px;
+		z-index: 10021;
+		width: 100%;
+		display: table-row;
+		list-style-type: none;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+	}
+		#footer ul li {
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			display: block;
+			float: left;
+			width: 105px;
+			text-transform: uppercase;
+			font-size: 12px;
+			z-index: 10022;
+			padding: 0;
+			margin: 0;
+		}
+		#footer ul li a {
+			border: 0 none;
+			outline: none;
+			display: block;
+			padding-top: 22px;
+			text-decoration: none;
+			color: #4d4d4f;
+			line-height: 65px;
+			vertical-align: middle;
+			text-align: center;
+			padding: 0;
+			margin: 0;
+		}
+		#footer ul li a.active {
+			color: #fff;
+		}
+.feedBack{
+align:center;
+display:block;
+margin:20px auto;
+background-color:black;
+position:absolute;
+width:400px;
+height:200px;
+-moz-opacity: 80;opacity:0.8;
+filter: alpha(opacity=80);
+}
+.form-control-fix{
+	margin:30px auto;
+	width: 250px;
+}
+#main-content {
+	width:100%;
+	height:90%;
+	overflow:hidden;
+	z-index:2;
+}
