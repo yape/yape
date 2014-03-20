@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 if(empty($_SESSION['userName'])) header("Location: php/login.php");
 ?>
@@ -112,16 +112,8 @@ echo "<input type=hidden id='hiddenUserName' value=".$_SESSION['userName']."/>";
 <script src="js/bhat.js"> </script>
 <!--script src="js/indexN.js"> </script-->
 <script src="js/show.js"> </script>
-
-
-
-	<!--script type='text/javascript' src='http://www.exosource.com/wp-content/themes/exosource/js/history.min.js'></script-->
-	<script type='text/javascript' src='http://code.jquery.com/ui/1.9.2/jquery-ui.min.js'></script>
-	<script type='text/javascript' src='http://www.exosource.com/wp-content/themes/exosource/js/jquery.mousewheel.min.js'></script>
-	<!--script type='text/javascript' src='http://www.exosource.com/wp-content/themes/exosource/js/jquery.touchSwipe.min.js'></script-->
-	<!--script type='text/javascript' src='http://www.exosource.com/wp-content/themes/exosource/js/bootstrap.min.js'></script-->
-	<!--script type='text/javascript' src='http://www.exosource.com/wp-content/themes/exosource/js/exosource.js'></script-->
-	<!--script type='text/javascript' src='http://www.exosource.com/wp-content/themes/exosource/js/footer.js'></script-->
+<script type='text/javascript' src='http://code.jquery.com/ui/1.9.2/jquery-ui.min.js'></script>
+<script type='text/javascript' src='http://www.exosource.com/wp-content/themes/exosource/js/jquery.mousewheel.min.js'></script>
 <noscript>
 
 </body>
